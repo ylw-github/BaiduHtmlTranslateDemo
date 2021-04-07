@@ -1,0 +1,15 @@
+<p>There's no need to null test in conjunction with an <code>instanceof</code> test. <code>null</code> is not an <code>instanceof</code> anything, so
+a null check is redundant.</p>
+<h2>不合规的代码示例</h2>
+<pre>
+if (x != null &amp;&amp; x instanceof MyClass) { ... }  //不合规的
+
+if (x == null || ! x instanceof MyClass) { ... } //不合规的
+</pre>
+<h2>兼容的解决方案</h2>
+<pre>
+if (x instanceof MyClass) { ... }
+
+if (! x instanceof MyClass) { ... }
+</pre>
+
