@@ -4,10 +4,11 @@
 ## 效果
 
 翻译前：
-[翻译前图片](../img/before.png)
+![翻译前](https://github.com/ylw-github/BaiduHtmlTranslateDemo/blob/main/img/before.png)
 
 翻译后：
-[翻译后图片](../img/after.png)
+![翻译后](https://github.com/ylw-github/BaiduHtmlTranslateDemo/blob/main/img/after.png)
+
 
 ## 使用方法
 
